@@ -1,13 +1,20 @@
-<script setup>
-
-</script>
 
 <template>
-    <div id="app">
-        {{msg}}
+    <div>
+        {{ msg }}
     </div>
 </template>
 
-<style scoped>
+<script>
+export default {
+    name: 'AppTitle',
+    data() {
+        return {
+            msg : 'La mia prima app con Vite!'
+        }
+    }
+}
+</script>
 
-</style>
+
+<style scoped></style>
