@@ -17,4 +17,10 @@ export default {
 </script>
 
 
-<style scoped></style>
+<style scoped>
+div{
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+}
+</style>
